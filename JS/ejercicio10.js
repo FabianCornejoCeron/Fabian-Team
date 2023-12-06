@@ -37,6 +37,7 @@ const recordCollection = {
     return records;
   }
   
+  //Ejemplo
   // Ejemplo de uso:
   const updatedRecords =updateRecords(recordCollection, 1245, "albumTitle", "Riptide");
   console.log(updatedRecords);
