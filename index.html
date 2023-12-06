@@ -11,6 +11,8 @@
         }
     </style>
     <title>Algo</title>
+    <script src=js/ejercicio10.js></script>
+    <script src=js/ejercicio10_test.js></script>
 </head>
 <body>
     
@@ -160,6 +162,24 @@
     <!--Fabian-->
     <h2>Test</h2>
     <pre data-src="./js/ejercicio9_test.js"></pre>
+
+    <h1>Ejercicio 10</h1>
+    <p>Su trabajo es programar la función "updateRecords" la cual recibe 4 argumentos(records, id, prop, value).
+
+        El comportamineto de la función debe ser el siguiente:
+        1. La función siempre debe regresar el objeto completo "records".
+        2. Si "value" es una cadena vacia, borrar la propiedad "prop" del  album cuyo id es "id".
+        3. Si "prop" no es "tracks" y "value" no es una cadena vacia, asignar "value" a la propiedad "prop" del album cuyo id es "id".
+        4. Si "prop" es "tracks", y "value" no es una cadena vacia, se debe actualizar el arreglo "tracks" del album.
+          4.1. En caso de que el album no tenga la propiedad "tracks", esta se debe asignar a un arreglo vacio y después se debe añadir "value" al final del arreglo
+        
+        Nota: No debes modificar el objeto "recordCollection".
+        */</p>
+    
+    <h2>Código</h2>
+    <pre data-src="./js/ejercicio10.js"></pre>
+
+    
 
     
 </body>
