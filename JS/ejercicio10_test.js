@@ -1,4 +1,3 @@
-/*
 // After 
 updateRecords(recordCollection, 5439, "artist", "ABBA")
 // artist should be the string ABBA
@@ -26,5 +25,3 @@ updateRecords(recordCollection, 2548, "tracks", "")
 // After 
 updateRecords(recordCollection, 1245, "albumTitle", "Riptide")
 // , albumTitle should be the string Riptide
-*/
-//
